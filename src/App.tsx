@@ -1,14 +1,14 @@
 import React from 'react';
-import { Navbar } from 'react-bootstrap';
-import './App.css';
+import { Container } from 'react-bootstrap';
+import { Navbar } from './components/Navbar';
 import { Routing } from "./Routing";
 
 function App() {
   return (
-    <>
+    <Container className="mb-4 vw-100">
       <Navbar />
       <Routing />
-    </>
+    </Container>
   );
 }
 
